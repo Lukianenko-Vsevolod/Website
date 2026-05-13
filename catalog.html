@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/styleC.css">
+    <title>catalog</title>
+</head>
+<body> 
+    <center><h1>Каталог</h1></center>
+    <h2 class = "sdvig">Меню</h2>
+    <ul>
+        <li><a href = "index.Html">Главная</a></li  >
+        <li><a href = "catalog.Html">Каталог</a></li>
+    </ul>
+    <hr>
+    <button class = "filter" data-category="all">все</button>
+    <button class = "filter" data-category="asics">Asics</button>
+    <button class = "filter" data-category="nike">Nike</button>
+    <button class = "filter" data-category="mizuno">Mizuno</button>
+    <div id="products-container"></div>
+    <h3>Корзина:</h3>
+    <div id="products-cart"></div>
+    <h3>Итого:<span id = "cart-total">0<span>руб</h3>
+    <button class = "Cart" data-category="clear">Очистить корзину</button>
+    <button class = "Cart" data-category="Pay">Оплатить</button>
+    <hr>
+    <center><p>© Все права защищены</p></center>
+    <script src="js/catalog.js"></script>
+    
+</body>
+</html>

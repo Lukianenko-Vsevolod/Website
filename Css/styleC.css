@@ -1,0 +1,46 @@
+body {
+    color: rgb(0, 0, 0);
+    background: #00d5ff;
+}
+a[href] {
+    color: #0a7aa3;
+    font-weight: bold;
+}
+.product-card{
+    width: 200px;      
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+#products-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black; 
+    padding-top: 10px;
+}
+.sdvig{
+      margin-left: 160px;
+      margin-right: 160px;
+}
+ul{
+    padding-left: 175px;
+    list-style: none;
+}
+
+hr {
+    border-top: 2px solid black; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;                  
+}   

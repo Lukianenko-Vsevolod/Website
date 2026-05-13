@@ -1,0 +1,84 @@
+
+body {
+    color: rgb(0, 0, 0);
+    background: #00d5ff;
+}
+a[href] {
+    color: #0a7aa3;
+    font-weight: bold;
+}
+.product-title {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgba(240, 240, 240, 0.663);
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.short-description {
+    color: rgba(3, 75, 60, 0.578);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.detailed-description {
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+  
+.specifications {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.specifications li {    
+    margin-bottom: 8px;
+    padding: 8px 5px 0px 15px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    position: relative;
+}
+
+.specifications li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 65%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-image: url('../image/marker.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-title {
+    color: rgb(0, 0, 0);
+    font-size: 18px;         
+    font-weight: 400;    
+    background-color: rgb(240, 240, 240);  
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+footer {
+    position: absolute;
+    bottom: -620px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black; 
+    padding-top: 10px;
+}
+hr {
+    border-top: 2px solid black; 
+}
